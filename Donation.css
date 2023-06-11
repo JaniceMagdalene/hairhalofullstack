@@ -1,0 +1,299 @@
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, rgb(236, 133, 208) 50%, rgb(135, 194, 233) 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+.do{
+  width: 700px;
+  margin-top: 20px;
+  margin-left: 100px;
+  overflow-y: scroll;
+  background-image: url('https://media.istockphoto.com/id/1262788783/photo/close-up-portrait-of-beautifully-looking-young-blonde-haired-woman-dressed-in-a-bright.jpg?s=612x612&w=0&k=20&c=igM8B73zUZV8vXoLhsLleS9vFJqNBlE-viWnwgeOpUY=');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin-bottom: 10px;
+  
+display: flex;
+flex-direction: column;
+}
+#style-2::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(233, 226, 226, 0.9);
+border-radius: 5px;
+background-color: #CCCCCC;
+}
+
+#style-2::-webkit-scrollbar
+{
+width: 15px;
+background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+
+background-color: #ec150a;
+background-image: -webkit-linear-gradient(90deg,
+                      transparent,
+                      rgba(239, 32, 166, 0.936) 50%,
+                      transparent,
+                      rgba(239, 32, 166, 0.936) 50%,
+                      transparent)
+}
+
+
+
+.car{
+margin-top: 30px;
+margin-left: 70px;
+margin-bottom: 30px;
+display: flex;
+  flex-direction: column;
+}      
+.donationinput{
+  width: 100%;
+padding: 10px;
+margin: 2px 0;
+box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+}
+ .donatelabel {
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+  font-size: x-large;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: rgb(215, 12, 12);
+}
+
+.form-control{
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  font-size: x-large;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  background-color: none;
+}
+.form-control input[type="radio"] { 
+
+padding: 50px 50px 50px 50px;
+background-color: none;
+justify-content:space-between;
+}
+
+
+input[type="date"]{
+background-color:rgb(235, 140, 156);
+padding: 7px;
+font-family: "Roboto Mono",monospace;
+color: #ffffff;
+font-size: 18px;
+border: none;
+outline: none;
+border-radius: 5px;
+margin-left: 30px;
+width: 50%;
+}
+.donationemail{
+width: 100%;
+padding: 10px;
+margin: 2px 0;
+box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+
+
+.buttondonation {
+position: relative;
+left: 200px;
+color: #f24e5e;
+text-decoration: none;
+font-size: 20px;
+display: inline-block;
+font-family:'Courier New', Courier, monospace;
+font-weight: bold;
+text-transform: uppercase;
+margin-top: 10px;
+padding: 0.5em 2em;
+border: 2px solid #e70707;
+transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+}
+
+.v1_3 {
+width: 550px;
+height: 295px;
+background: url("./images/v1_3.png");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+opacity: 1;
+position: absolute;
+top: 95px;
+left: 900px;
+overflow: hidden;
+border-radius: 20px;
+}
+.v1_3:hover {
+width: 550px;
+height: 295px;
+background: url("./images/v1_3.png");
+filter: blur(3px);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+opacity: 1;
+position: absolute;
+top: 95px;
+left: 900px;
+overflow: hidden;
+border-radius: 20px;
+transform: scale(1, 1);
+box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+  -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.n{
+width: 170px;
+color: rgb(28, 23, 23);
+position: absolute;
+top: 465px;
+left: 945px;
+
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bolder;
+font-size: 20px;
+opacity: 1;
+text-align: center;
+}
+
+
+.y {
+width: 250px;
+height: 200px;
+background: linear-gradient(109.6deg, rgb(104, 183, 249) 31.3%, rgb(176, 248, 200) 100.2%);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+opacity: 1;
+position: absolute;
+top: 450px;
+left: 900px;
+overflow: hidden;
+border-radius: 70%;
+transform: scale(1, 1);
+box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+  -5px -5px 30px 15px rgba(0,0,0,0.22);
+
+}
+.v1_4 {
+width: 140px;
+color: rgb(209, 13, 13);
+position: absolute;
+top: 140px;
+left: 940px;
+font-family:'Courier New', Courier, monospace;
+font-weight: bold;
+font-size: 20px;
+opacity: 1;
+text-align: left;
+}
+
+.y:hover {
+width: 250px;
+height: 200px;
+background: url("./images/v1_15.png");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+opacity: 1;
+position: absolute;
+top: 450px;
+left: 900px;
+overflow: hidden;
+border-radius: 70%;
+filter: blur(5px);
+
+}
+
+
+
+
+.D {
+width: 250px;
+height: 200px;
+background: url("./images/v1_18.png");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+opacity: 1;
+position: absolute;
+top: 450px;
+left: 1200px;
+overflow: hidden;
+border-radius: 70%;
+transform: scale(1, 1);
+box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+  -5px -5px 30px 15px rgba(0,0,0,0.22);
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  
+.do{
+  width: 550px;
+}
+
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  
+.do{
+  width: 400px;
+}
+
+}

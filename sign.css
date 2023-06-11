@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.appsignwrapper {
+  margin-top: 20px;
+  position: relative;
+  background: linear-gradient(to bottom, #d49eff, #ff9cd1);
+  width: 450px;
+  height: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-left: 550px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.signtitle {
+  color: #140107;
+  text-align: center;
+  font-size: 24px;
+  margin: 0 0 25px 0;
+  font-weight: bold;
+}
+
+
+.signname {
+  margin: 20px 10px;
+  color: rgb(60, 18, 227);
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.signemail {
+  color: rgb(60, 18, 227);
+  font-size: 16px;
+  margin: 100px 25px;
+  margin-left: -195px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.signpassword{
+  margin: -90px 10px;
+  color: rgb(60, 18, 227);
+  font-size: 16px;
+  margin-top: 0px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.signinput {
+  height: 32px;
+  font-size: 20px;
+  outline: none;
+  width: 200%;
+  margin: 0px 12px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;}
+
+ .signinpute {
+  height: 32px;
+  font-size: 20px;
+  outline: none;
+  width: 115%;
+margin-left: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}  
+
+.submit {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 25px;
+  margin: 100px 25px;
+  margin-left: -150px;
+ 
+  color: white;
+  font-weight: bold;
+  padding: 10px 70px;
+  background: linear-gradient(to right, #ab1dcf, #f80759);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.submit:active {
+  transform: translateY(2px);
+}
+
+
+.magjoy {
+  text-align: left;
+  left: 800px;
+  color: #1b07f8;
+  margin-top: -70px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.subjoy1 {
+  position: relative;
+  text-align: right;
+  left: 200px;
+  color: #fdf6f6;
+  margin-top: 20px;
+  font-size: x-large;
+  font-weight: bold;
+  padding: 5px 30px;
+  background: linear-gradient(to right, #ab1dcf, #f80759);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.subjoy1:hover {
+  background-color: #0b0d0b;
+}
